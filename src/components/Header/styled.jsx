@@ -2,10 +2,15 @@ import styled from "styled-components";
 import * as colors from '../../config/colors'
 export const Nav = styled.nav`
 display: flex;
-height: 50px;
-padding: 10px 30px 10px 10px;
+height: 70px;
+padding: 20px 30px 10px 30px;
 text-align: center;
 /* Logo */
+.logo{
+    height: 100%;
+    width: 100px;
+    margin-right:20px;
+}
 img{
     margin-right:10px;
 }
@@ -20,7 +25,7 @@ ul.navbar{
     display: inline-flex;
     align-items: center;
     width: 100%;
-    gap: 15px;
+    gap: 20px;
 }
 
 @media screen and (max-width: 768px) {

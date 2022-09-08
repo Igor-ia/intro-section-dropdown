@@ -82,7 +82,7 @@ export default function Header() {
 
 
         <Nav>
-            <img src={Logo} alt="" />
+            <img className="logo" src={Logo} alt="Logo" />
             <button type="button" onClick={handleMobileToggle} className="mobile-toggle">
                 <img src={MenuIcon} className="menu-toggle" alt="Menu" />
                 <img src={CloseIcon} className="close-toggle hidden" alt="Close" />

@@ -19,10 +19,10 @@ export default function Main() {
                 </p>
                 <button>Learn more</button>
                 <div className='brand'>
-                    <img src={AudiophileLogo} alt="" />
                     <img src={DatabizLogo} alt="" />
-                    <img src={MakerLogo} alt="" />
+                    <img src={AudiophileLogo} alt="" />
                     <img src={MeetLogo} alt="" />
+                    <img src={MakerLogo} alt="" />
                 </div>
             </Description>
             <img className='image-section-desktop' src={ImageDesktop} alt="" />
